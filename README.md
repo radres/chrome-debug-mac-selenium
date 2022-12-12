@@ -1,14 +1,6 @@
 # Launch chrome on debug mode
 
-launch chrome on mac on debug mode:
-```
---remote-debugging-port=9222 --user-data-dir=remote-profile
-```
-
-on MacOS, chrome can be launched from `/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome`
-
-as in:
-
+## MacOS
 ```
 /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --remote-debugging-port=9222 --user-data-dir=remote-profile
 ```
